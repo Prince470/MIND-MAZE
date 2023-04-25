@@ -1,0 +1,271 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@100;200;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@100;200;300&display=swap');
+
+
+/* .container {
+  width: 100vw;
+  height: 100vh; */
+  /* background-color: #f0f8ff; */
+  /* background-image: url('puzzle.avif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+body {
+  background-color: #C0DBEA
+}
+
+.Header {
+  position: absolute;
+  width: 925px;
+  height: 83px;
+  left: calc(50% - 925px/2 - 0.5px);
+  top: 40px;
+  background: #FFFAD1;
+  border-radius: 20px;
+}
+
+.Header h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  margin-left: 20px;
+  margin-top: 14px;
+
+  color: rgba(0, 0, 0, 0.85);
+}
+
+/* .Header a{
+
+} */
+
+.Level {
+
+  width: 925px;
+  height: 101px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 174px;
+
+  background: #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
+
+
+}
+
+.Level h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+
+
+
+  color: #D885A3;
+  text-align: center;
+  margin-top: 100px;
+
+
+
+}
+
+.clue {
+  width: 925px;
+  height: 408px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -85px;
+  
+
+  background: #FFFFFF;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.clue h1 {
+  text-align: center;
+  margin-top: 100px;
+  position:relative; top:8px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 40px;
+
+
+  text-align: center;
+
+  
+}
+
+
+.clue p {
+
+  text-align: center;
+  margin-top: -40px;
+  /* margin-bottom: 100px; */
+
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration-line: underline;
+
+  color: #7188FF;
+}
+
+.clue hr {
+  margin-top: 10px;
+}
+
+.clue input {
+  /* position: absolute; */
+  width: 814.64px;
+  height: 79.45px;
+  left: 125px;
+  margin-top: 15px;
+  margin-left: 50px;
+  border: 0px solid ;
+
+  background: #D99FCE;
+  border-radius: 15px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  margin-top:23px;
+
+
+   
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.clue button {
+  /* position: absolute; */
+  width: 825.64px;
+  height: 79.45px;
+  left: 125px;
+  /* top: 550.45px; */
+  border: 0px solid;
+  margin-left: 47px;
+  margin-top: 20px;
+  background: #BEB0EA;
+  border-radius: 15px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.clue h6{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+  margin-top:23px;
+  color: #000000;
+}
+
+/* The sidepanel menu */
+/* Side panel */
+.sidepanel {
+  /* width: 320px; */
+  position: fixed;
+  z-index: 1;
+  height: 92%;
+  top: 0;
+  right: 0;
+  width : 0px;
+  background-color: #FFFAD1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+/* The close button */
+.closebtn {
+  position: absolute;
+  top: 0;
+  width: 0px;
+  right: 40px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Toggle button */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #c0dbea;
+  position: relative;
+  top:-80px;
+  margin-left: 836px;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Content */
+.main {
+  margin-right: 250px;
+  padding: 20px;
+}
+
+
+  /* .sidepanel .close() */
+
+  .sidepanel h1{
+    margin-top: -35px;
+    margin-left: 0px;
+    margin-bottom: 65px;
+  }
+.sidepanel ul{
+
+  list-style-type: none;  
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 40px;
+color:#000000
+}
+.sidepanel a{
+  text-decoration: none;
+  color:#000000
+}
+
+.sidepanel a:hover{
+  text-decoration: none;
+  color:#C0DBEA
+}
+
+

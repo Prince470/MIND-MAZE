@@ -1,0 +1,21 @@
+
+
+.congo{
+    margin-top: 205px;
+    margin-bottom: 40px;
+    /* margin-left: 60px; */
+    font-size: 50px;
+    margin-right: 40px;
+    color: brown;
+    text-align: center;
+}
+
+.cong{
+    position: relative;
+    margin-top: 60px;
+    /* margin-bottom: -76px; */
+    margin-left: 600px;
+    font-size: 35px;
+    /* margin-right: 42px; */
+    color: brown;
+}
