@@ -28,7 +28,6 @@ app.use(
 	})
 );
 
-
 // app.use("/auth", authRoute);
 app.get('/auth/google',
   passport.authenticate('google', { scope: [ 'email', 'profile' ] }
